@@ -14,20 +14,19 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import { Option } from "@/types";
+import { InputEvent, Option } from "@/types";
 
 @Component
 export default class FilterSelect extends Vue {
-  @Prop() private onChange!: (value: string | number) => void;
   @Prop() private label?: string;
-  @Prop() private value!: string | number;
+  @Prop() private value!: number;
   @Prop() private options?: Option[];
-
-  get selectValue() : string | number {
+  @Prop() private onChange!: (value: number) => void;
+  get selectValue() : number {
     return this.value;
   }
-  set selectValue(value: string | number) {
-    this.onChange(value);
+  set selectValue(newValue : number) {
+    this.onChange(newValue);
   }
 }
 </script>

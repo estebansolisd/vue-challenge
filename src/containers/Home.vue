@@ -22,6 +22,7 @@
       <div class="md-layout-item">
         <filter-select
           :onChange="onChange"
+          :value="filter"
           :options="options"
           :label="'Role Status'"
         />
@@ -55,7 +56,7 @@
             md-xlarge-size-33
             p-10
           "
-          v-for="role in roles"
+          v-for="role in filteredRoles"
           :key="role.id"
         >
           <card
@@ -79,7 +80,7 @@ import SearchInput from "@/components/SearchInput.vue";
 import FilterSelect from "@/components/FilterSelect.vue";
 import NormalButton from "@/components/NormalButton.vue";
 import Card from "@/components/Card.vue";
-import { InputEvent, Option } from "@/types";
+import { Option } from "@/types";
 import { mapState } from "vuex";
 
 @Component({
@@ -103,13 +104,15 @@ import { mapState } from "vuex";
   },
 })
 export default class Home extends Vue {
-  private value?: string;
-  private filter?: string | number;
-  onInput(e: InputEvent) {
-    this.value = e.target.value;
+  private value = "";
+  private filter = 1;
+  // eslint-disable-next-line
+  private roles!: any[];
+  onInput(value: string) {
+    this.value = value;
   }
-  onChange(value: string | number) {
-    this.filter = value;
+  onChange(filter: number) {
+    this.filter = filter;
   }
   onClick() {
     this.$router.push({
@@ -118,6 +121,28 @@ export default class Home extends Vue {
         variant: "create",
       },
     });
+  }
+  public get filteredRoles() {
+    if (this.filter === 1) {
+      return this.roles.filter(
+        (r) =>
+          r.role.toLowerCase().includes(this.value.toString().toLowerCase()) &&
+          !r.inactive
+      );
+    } else if (this.filter === 2) {
+      return this.roles.filter(
+        (r) =>
+          r.role.toLowerCase().includes(this.value.toString().toLowerCase()) &&
+          r.inactive
+      );
+    } else {
+      console.log(this.roles, "roles");
+      console.log(this.value, "value");
+
+      return this.roles.filter((r) =>
+        r.role.toLowerCase().includes(this.value.toString().toLowerCase())
+      );
+    }
   }
 }
 </script>
