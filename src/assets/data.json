@@ -1,0 +1,434 @@
+[
+  {
+    "role": "Super Administrator",
+    "type": {
+      "id": 1,
+      "name": "Administrator"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": false,
+    "inactive": true
+  },
+  {
+    "role": "Company Administrator",
+    "type": {
+      "id": 1,
+      "name": "Administrator"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": false,
+    "inactive": true
+  },
+  {
+    "role": "Property Administrator",
+    "type": {
+      "id": 1,
+      "name": "Administrator"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": false,
+    "inactive": true
+  },
+  {
+    "role": "Job Recruiter",
+    "type": {
+      "id": 2,
+      "name": "Job Administration Role"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": true,
+    "inactive": false
+  },
+  {
+    "role": "Content Administrator",
+    "type": {
+      "id": 1,
+      "name": "Administrator Role"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": true,
+    "inactive": false
+  },
+  {
+    "role": "Property Moderator",
+    "type": {
+      "id": 1,
+      "name": "Administrator Role"
+    },
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rerum ratione itaque consequatur reprehenderit repudiandae adipisci, provident, nemo temporibus illo ipsam, odio saepe quam quidem vel iste tempore modi praesentium iure? Eaque inventore quia porro iste consequuntur! Laborum maxime quo vel minima, iste beatae tempora saepe perspiciatis? Vel molestias ea animi, quod qui impedit quia illum accusantium, quaerat nesciunt, ducimus unde explicabo cupiditate eveniet rerum? Itaque saepe temporibus pariatur nesciunt. Magnam saepe perspiciatis consectetur cumque accusantium laborum quod, quibusdam magni eum asperiores exercitationem nam corrupti dolorum quos sint quo inventore placeat ad id sapiente sequi autem dignissimos. Sed, dolore at.",
+    "related_user_images": [
+      {
+        "user_id": 1,
+        "id": 1,
+        "src": "https://i.pravatar.cc/1?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 2,
+        "id": 2,
+        "src": "https://i.pravatar.cc/2?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 3,
+        "id": 3,
+        "src": "https://i.pravatar.cc/3?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 4,
+        "id": 4,
+        "src": "https://i.pravatar.cc/4?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 5,
+        "id": 5,
+        "src": "https://i.pravatar.cc/5?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 6,
+        "id": 6,
+        "src": "https://i.pravatar.cc/6?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 7,
+        "id": 7,
+        "src": "https://i.pravatar.cc/7?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 8,
+        "id": 8,
+        "src": "https://i.pravatar.cc/8?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 9,
+        "id": 9,
+        "src": "https://i.pravatar.cc/9?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      },
+      {
+        "user_id": 10,
+        "id": 10,
+        "src": "https://i.pravatar.cc/10?u=fake@pravatar.com",
+        "alt": "Lorem ipsum dolor"
+      }
+    ],
+    "editable": false,
+    "inactive": false
+  }
+]
