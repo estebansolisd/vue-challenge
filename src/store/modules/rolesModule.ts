@@ -9,12 +9,26 @@ export default {
     role_status: "idle",
   }),
   mutations: {
-    setVal(state: any, payload: any) {
+    setValRoles(state: any, payload: any) {
       const { key, value } = payload;
       state[key] = value;
     },
   },
   actions: {
+    setValRoles({ commit }: { commit: any }, payload: any) {
+      commit("setValRoles", {
+        key: "roles",
+        value: payload,
+      });
+    },
+    deleteRole({ commit, state }: { commit: any; state: any }, id: number) {
+        console.log(id, "id");
+        
+      commit("setValRoles", {
+        key: "roles",
+        value: state.roles.filter((r: any) => r.id !== id),
+      });
+    },
     async loadRoles({ commit }: { commit: any }) {
       let newData: any = [];
       let newStatus = "idle";
@@ -31,11 +45,11 @@ export default {
         newStatus = "error";
         console.error(err, "error loading the roles");
       }
-      commit("setVal", {
+      commit("setValRoles", {
         key: "role_status",
         value: newStatus,
       });
-      commit("setVal", {
+      commit("setValRoles", {
         key: "roles",
         value: newData,
       });

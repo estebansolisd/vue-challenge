@@ -18,9 +18,10 @@
     </md-card-content>
 
     <md-card-actions md-alignment="right">
+      <span> Date created: {{ created_at }} </span>
       <template v-if="showActions">
-        <md-button>Edit</md-button>
-        <md-button class="md-accent">Delete</md-button>
+        <md-button @click="onEdit(id)">Edit</md-button>
+        <md-button class="md-accent" @click="onDelete(id)">Delete</md-button>
       </template>
       <span v-else class="p-10">
         <md-icon>lock</md-icon>
@@ -42,6 +43,9 @@ export default class Card extends Vue {
   @Prop() private title?: string;
   @Prop() private showActions?: boolean;
   @Prop() private showLock?: boolean;
+  @Prop() private id?: number;
+  @Prop() private onEdit?: (id: number) => void;
+  @Prop() private onDelete?: (id: number) => void;
 
   get firstSixImages(): RelatedUserImage[] {
     return this.related_user_images.slice(0, 6);

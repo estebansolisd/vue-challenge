@@ -5,7 +5,7 @@ export default {
     options: [],
   }),
   mutations: {
-    setVal(state: any, payload: any) {
+    setValOptions(state: any, payload: any) {
       const { key, value } = payload;
       state[key] = value;
     },
@@ -13,7 +13,7 @@ export default {
   actions: {
     //   eslint-disable-next-line
     loadOptions({ commit }: { commit: any }) {
-      commit("setVal", {
+      commit("setValOptions", {
         key: "options",
         value: [
           {

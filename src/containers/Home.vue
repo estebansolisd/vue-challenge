@@ -29,7 +29,7 @@
       </div>
     </form>
     <div class="md-layout-item md-medium-size-60">
-      <normal-button :onClick="onClick"> CREATE NEW ROLE </normal-button>
+      <normal-button :onClick="onCreate"> CREATE NEW ROLE </normal-button>
     </div>
     <div
       class="
@@ -67,10 +67,23 @@
             :showActions="role.editable"
             :showInactive="role.inactive"
             :created_at="role.created_at"
+            :onDelete="onDelete"
+            :onEdit="onEdit"
+            :id="role.id"
           />
         </div>
       </div>
     </div>
+
+    <md-dialog-confirm
+      :md-active.sync="active"
+      md-title="Delete confirmation"
+      md-content="Do you really want to delete this role ?"
+      md-confirm-text="Agree"
+      md-cancel-text="Disagree"
+      @md-cancel="onCancel"
+      @md-confirm="onConfirm"
+    />
   </div>
 </template>
 
@@ -90,6 +103,10 @@ import { mapState } from "vuex";
     NormalButton,
     Card,
   },
+  data: {
+    active: false,
+    currentId: -1,
+  },
   computed: {
     ...mapState({
       // eslint-disable-next-line
@@ -105,7 +122,10 @@ import { mapState } from "vuex";
 })
 export default class Home extends Vue {
   private value = "";
-  private filter = 1;
+  private filter = 3;
+  private active = false;
+  private currentId = -1;
+
   // eslint-disable-next-line
   private roles!: any[];
   onInput(value: string) {
@@ -114,13 +134,34 @@ export default class Home extends Vue {
   onChange(filter: number) {
     this.filter = filter;
   }
-  onClick() {
+  onCreate() {
     this.$router.push({
       name: "Form",
       query: {
         variant: "create",
       },
     });
+  }
+  onDelete(id: number) {
+    this.active = true;
+    this.currentId = id;
+  }
+  onEdit(id: number) {
+    this.$router.push({
+      name: "Form",
+      query: {
+        variant: "edit",
+        roleId: id.toString(),
+      },
+    });
+  }
+  onConfirm() {
+    this.$store.dispatch("deleteRole", this.currentId);
+    this.active = false;
+    this.currentId = -1;
+  }
+  onCancel() {
+    this.active = false;
   }
   public get filteredRoles() {
     if (this.filter === 1) {
