@@ -15,6 +15,7 @@ const routes: Array<RouteConfig> = [
     path: "/form",
     name: "Form",
     component: Form,
+    props: (route) => ({ id: route.query.id, variant: route.query.variant }),
   },
 ];
 

@@ -8,7 +8,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class SearchInput extends Vue {
+export default class NormalButton extends Vue {
   @Prop() private onClick?: () => void;
   @Prop() private disabled?: boolean;
 }

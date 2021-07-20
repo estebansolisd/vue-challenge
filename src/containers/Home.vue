@@ -151,7 +151,7 @@ export default class Home extends Vue {
       name: "Form",
       query: {
         variant: "edit",
-        roleId: id.toString(),
+        id: id.toString(),
       },
     });
   }
