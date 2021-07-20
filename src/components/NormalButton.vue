@@ -1,11 +1,7 @@
 <template>
-  <button
-    @click="onClick"
-    :disabled="disabled"
-    class="btn waves-effect waves-light"
-  >
+  <md-button class="md-raised md-primary" @click="onClick" :disabled="disabled">
     <slot></slot>
-  </button>
+  </md-button>
 </template>
 
 <script lang="ts">
